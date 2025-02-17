@@ -128,6 +128,7 @@ input {
   padding-left: 20px;
   height: 48px;
   width: 90%;
+  font-weight: bold;
 }
 
 /* WORD Section */
@@ -137,6 +138,29 @@ input {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 32px;
+}
+
+#word {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+#pronunciation {
+  margin-top: 8px;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+#word-wrap img {
+  width: 48px;
+}
+
+#audio-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
 }
 
 
