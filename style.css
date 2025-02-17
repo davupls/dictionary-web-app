@@ -67,9 +67,20 @@ nav {
   height: 32px;
   width: 28.05;
 }
+#font-btn {
+  background-color: transparent;
+  border: none;
+}
 
 #page-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 50%;
+}
+
+#icon-arrow-down {
+  padding-left: 10px;
 }
 
 .font-dropdown {

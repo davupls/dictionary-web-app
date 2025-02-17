@@ -12,7 +12,7 @@ fontOptions.addEventListener('click', (e) => {
     const selectedFont = e.target.dataset.font;
     document.body.style.fontFamily = selectedFont;
     // Optionally update button text to reflect the selected font
-    fontBtn.innerHTML = `${e.target.textContent} <span class="arrow">&#x25BC;</span>`;
+    fontBtn.innerHTML = `${e.target.textContent} <img id="icon-arrow-down" src="./assets/images/icon-arrow-down.svg" alt="">`;
     // Close the dropdown
     fontBtn.setAttribute('aria-expanded', 'false');
     fontOptions.hidden = true;
