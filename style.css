@@ -49,16 +49,46 @@
   line-height: 17px;
 }
 
+/* BODY tag */
+body {
+  padding: 24px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /* NAV Bar */
 nav {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+#logo {
+  height: 32px;
+  width: 28.05;
+}
+
+.font-dropdown {
+  text-decoration: none;
+  color: var(--black-A);
+  font-weight: bold;
 }
 
 /* SEARCH Input */
 
+#search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
 input {
-  width: 100%;
+  background-color: var(--gray-B);
+  border-radius: 16px;
+  border: none;
+  padding-left: 20px;
+  height: 48px;
+  width: 90%;
 }
 
 /* WORD Section */
@@ -67,6 +97,7 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 32px;
 }
 
 
@@ -75,6 +106,7 @@ input {
 .pos-wrap {
   display: flex;
   align-items: center;
+  margin-bottom: 32px;
 }
 
 hr {
@@ -87,7 +119,7 @@ hr {
 #meaning-section {
   display: flex;
   flex-direction: column;
-  /* gap: 10px; */
+  margin-bottom: 24px;
 }
 
 
@@ -95,6 +127,7 @@ hr {
 
 .syn-wrap {
   display: flex;
+  margin-bottom: 32px;
 }
 
 .syn-wrap div {
