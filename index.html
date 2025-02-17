@@ -23,13 +23,28 @@
         alt="A pencil outline of a book, this is the site logo"
       />
 
-      <div id="page-options">
+      <!-- <div id="page-options">
         <a href="#" class="font-dropdown">San Serif</a>
         <img
           src="./assets/images/icon-moon.svg"
           alt="Pencil outline of a Crescent moon for changing site between light and dark mode."
         />
+      </div> -->
+      <div class="font-dropdown" id="page-options">
+        <button id="font-btn" aria-haspopup="true" aria-expanded="false">
+          San Serif <span class="arrow">&#x25BC;</span>
+        </button>
+        <ul id="font-options" class="dropdown-menu" hidden>
+          <li data-font="sans-serif">Sans Serif</li>
+          <li data-font="serif">Serif</li>
+          <li data-font="monospace">Monospace</li>
+        </ul>
+        <img
+          src="./assets/images/icon-moon.svg"
+          alt="Pencil outline of a Crescent moon for changing site between light and dark mode."
+        />
       </div>
+
     </nav>
 
 
@@ -113,5 +128,7 @@
         
       </footer>
     </article>
+
+    <script src="main.js"></script>
   </body>
 </html>
