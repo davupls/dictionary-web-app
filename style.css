@@ -19,6 +19,17 @@
   src: url('./assets/fonts/inter/Inter-VariableFont_slnt\,wght.ttf')
 }
 
+@font-face {
+  font-family: 'Lora';
+  src: url('./assets/fonts/lora/Lora-VariableFont_wght.ttf')
+  url('./assets/fonts/lora/Lora-Italic-VariableFont_wght.ttf')
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('./assets/fonts/inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf')
+}
+
 .preset-san-heading-L {
   font-family: 'Inter', sans-serif;
   font-size: 64px;
@@ -172,9 +183,14 @@ input {
   margin-bottom: 32px;
 }
 
+.pos-wrap h2 {
+  font-style: italic;
+  padding-right: 20px;
+}
+
 hr {
   border: none;
-  border-top: 1px solid var(--black-A);
+  border-top: 1px solid var(--gray-B);
   margin: 0;
   width: 100%;
 }
@@ -182,7 +198,11 @@ hr {
 #meaning-section {
   display: flex;
   flex-direction: column;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
+}
+
+#meaning-section h3 {
+  margin: 0;
 }
 
 
