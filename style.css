@@ -1,0 +1,102 @@
+:root {
+    --primary-color: #A445ED;
+    --error-color: #FF5252;
+
+    --black-A: #050505;
+    --black-B: #1F1F1F;
+    --black-C: #2D2D2D;
+    --black-D: #3A3A3A;
+
+    --gray-A: #757575;
+    --gray-B: #E9E9E9;
+    --gray-C: #F4F4F4;
+
+    --white: #FFF;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/inter/Inter-VariableFont_slnt\,wght.ttf')
+}
+
+.preset-san-heading-L {
+  font-family: 'Inter', sans-serif;
+  font-size: 64px;
+  line-height: 77px;
+}
+
+.preset-san-heading-M {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.preset-san-heading-S {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.preset-body-M {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.preset-body-S {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+/* NAV Bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* SEARCH Input */
+
+input {
+  width: 100%;
+}
+
+/* WORD Section */
+
+#word-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* DEFINITION Section */
+
+.pos-wrap {
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--black-A);
+  margin: 0;
+  width: 100%;
+}
+
+#meaning-section {
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+}
+
+
+/* SYNONYMS Section */
+
+.syn-wrap {
+  display: flex;
+}
+
+.syn-wrap div {
+  display: flex;
+}
